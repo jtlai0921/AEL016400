@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RecordVideoDemo</string>
+    <string name="text_btRecordVideo">Record Video</string>
+    <string name="msg_NoCameraAppsFound">no camera apps found</string>
+    <string name="text_ShouldGrant">Permission to read from external storage should be granted</string>
+</resources>

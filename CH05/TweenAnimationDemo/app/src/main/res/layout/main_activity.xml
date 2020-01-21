@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="@string/text_tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#0000FF" />
+
+    <ImageView
+        android:id="@+id/ivSoccer"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/soccer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="48dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbTranslate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_rbTranslate"
+                android:onClick="onTranslateClick" />
+
+            <RadioButton
+                android:id="@+id/rbRotate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_rbRotate"
+                android:onClick="onRotateClick" />
+
+            <RadioButton
+                android:id="@+id/rbScale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_rbScale"
+                android:onClick="onScaleClick" />
+
+            <RadioButton
+                android:id="@+id/rbAlpha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_rbAlpha"
+                android:onClick="onAlphaClick" />
+
+            <RadioButton
+                android:id="@+id/rbAnimSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onAnimSetClick"
+                android:text="@string/text_rbAnimSet" />
+
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

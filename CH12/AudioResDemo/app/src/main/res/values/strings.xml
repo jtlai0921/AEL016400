@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AudioResDemo</string>
+    <string name="text_btPlaySound">Play Sound</string>
+    <string name="text_btStopSound">Stop Sound</string>
+    <string name="text_btPlayMp3">Play MP3</string>
+    <string name="text_btStopMp3">Stop MP3</string>
+</resources>

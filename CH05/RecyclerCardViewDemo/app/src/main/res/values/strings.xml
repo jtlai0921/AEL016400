@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerCardViewDemo</string>
+    <string name="tvTitle">Membership Information</string>
+    <string name="msg_ClickAgain">Please click the item again</string>
+</resources>

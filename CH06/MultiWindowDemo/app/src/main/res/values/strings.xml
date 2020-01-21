@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiWindowDemo</string>
+    <string name="text_AdjacentActivity">Adjacent Activity</string>
+    <string name="text_UnresizableActivity">Unresizable Activity</string>
+    <string name="text_MultiWindowDisabled">Multi-Window Disabled</string>
+    <string name="text_MultiWindowEnabled">Multi-Window Enabled</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ContactDemo</string>
+    <string name="msg_PhoneNoNotFound">Phone number not found</string>
+    <string name="text_ShouldGrant">Permission to read the contacts should be granted</string>
+
+</resources>

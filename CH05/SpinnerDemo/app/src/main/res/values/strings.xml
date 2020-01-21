@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpinnerDemo</string>
+    <string name="text_tvFood">Your favorite food</string>
+    <string-array name="food_array">
+        <item>spaghetti</item>
+        <item>dumpling</item>
+        <item>sushi</item>
+    </string-array>
+    <string name="text_tvPlace">Your favorite place</string>
+    <string name="text_NothingSelected">Nothing selected!</string>
+
+</resources>

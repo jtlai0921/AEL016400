@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExternalStorageDemo</string>
+    <string name="text_btSavePublic">Save Public</string>
+    <string name="text_btSavePrivate">Save Private</string>
+    <string name="msg_SavedFilePath">Saved file path: </string>
+    <string name="msg_ExternalStorageNotFound">External storage not found</string>
+    <string name="msg_DirectoryNotCreated">Directory cannot be created</string>
+    <string name="text_btOpenPublic">Open Public</string>
+    <string name="text_btOpenPrivate">Open Private</string>
+    <string name="msg_OpenedFilePath">Opened file path: </string>
+    <string name="msg_FileNotFound">File not found</string>
+    <string name="text_ShouldGrant">Permission to write to external storage should be granted</string>
+
+</resources>

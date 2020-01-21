@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AudioExternalDemo</string>
+    <string name="text_btPlayExternal">Play Audio from the External Storage</string>
+    <string name="text_btPlayUrl">Play Audio File from URL</string>
+    <string name="text_btStop">Stop</string>
+    <string name="msg_AudioFileNotExist">audio file does not exist</string>
+    <string name="msg_AudioFilePath">the audio file\'s path:</string>
+    <string name="text_ShouldGrant">Permission to write to external storage should be granted</string>
+</resources>

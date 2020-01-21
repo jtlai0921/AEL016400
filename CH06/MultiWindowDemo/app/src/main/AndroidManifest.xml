@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="idv.ron.multiwindowdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- The launcher Activity that is started when the application is first started.
+         Note that we are setting the task affinity to "" to ensure each activity is launched
+         into a separate task stack. -->
+        <activity
+            android:name=".MainActivity"
+            android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- In split-screen mode, this Activity is launched adjacent to another Activity. This is
+          controlled via a flag set in the intent that launches this Activity. -->
+        <activity
+            android:name=".AdjacentActivity"
+            android:taskAffinity="" />
+
+        <!-- This Activity cannot be resized and is always displayed full screen. -->
+        <activity
+            android:name=".UnresizableActivity"
+            android:resizeableActivity="false"
+            android:taskAffinity="" />
+    </application>
+
+</manifest>

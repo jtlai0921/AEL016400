@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LightDemo</string>
+    <string name="msg_SensorNotSupported">Sensor not supported</string>
+    <string name="maxRange">maximum range (lux)：</string>
+    <string name="sleep">for sleeping</string>
+    <string name="walk">for walking</string>
+    <string name="watchTV">for watching TV</string>
+    <string name="dailyLife">for daily</string>
+    <string name="read">for reading</string>
+    <string name="surgery">for surgery</string>
+    <string name="anyThing">for anything</string>
+</resources>

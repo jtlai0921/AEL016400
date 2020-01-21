@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BroadcastReceiverDemo</string>
+    <string name="text_tvText">Messages...</string>
+    <string name="text_NotGranted">not granted</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InternalStorageDemo</string>
+    <string name="hint_etInput">Input your words</string>
+    <string name="text_btSave">Save</string>
+    <string name="text_btAppend">Append and Save</string>
+    <string name="text_btOpen">Open</string>
+    <string name="fileSaved">File saved</string>
+    <string name="wordsAppended">Words appended</string>
+    <string name="text_btClear">Clear</string>
+
+</resources>

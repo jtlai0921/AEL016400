@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BroadcastSendDemo</string>
+    <string name="text_btSend">Send Broadcast</string>
+    <string name="text_btUnregister">Unregister BroadcastReceiver</string>
+
+</resources>

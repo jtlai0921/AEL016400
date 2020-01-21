@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_tvTitle"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etProgramming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="@string/hint_etProgramming"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDataStructure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etProgramming"
+        android:ems="10"
+        android:hint="@string/hint_etDataStructure"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etAlgorithm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etDataStructure"
+        android:ems="10"
+        android:hint="@string/hint_etAlgorithm"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAlgorithm"
+        android:onClick="onSubmitClick"
+        android:text="@string/text_btSubmit" />
+</RelativeLayout>

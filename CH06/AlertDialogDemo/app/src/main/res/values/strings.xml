@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlertDialogDemo</string>
+    <string name="msg_Alert">Do you really want to exit?</string>
+    <string name="text_btExit">Exit</string>
+    <string name="text_btYes">Yes</string>
+    <string name="text_btNo">No</string>
+    <string name="title">Exit</string>
+
+</resources>

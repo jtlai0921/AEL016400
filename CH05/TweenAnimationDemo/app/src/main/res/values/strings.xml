@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TweenAnimationDemo</string>
+    <string name="text_tvTitle">Title</string>
+    <string name="text_rbTranslate">Translate</string>
+    <string name="text_rbRotate">Rotate</string>
+    <string name="text_rbScale">Scale</string>
+    <string name="text_rbAlpha">Alpha</string>
+    <string name="text_rbAnimSet">Animation set</string>
+    <string name="text_TranslateAnimation">Translate Animation</string>
+    <string name="text_RotateAnimation">Rotate Animation</string>
+    <string name="text_ScaleAnimation">Scale Animation</string>
+    <string name="text_AlphaAnimation">Alpha Animation</string>
+    <string name="text_AnimationSet">Animation Set</string>
+
+</resources>

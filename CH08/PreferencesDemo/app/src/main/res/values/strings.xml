@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PreferencesDemo</string>
+    <string name="text_tvFileName">Image File Name</string>
+    <string name="text_tvAutoFocus">Auto Focus</string>
+    <string name="text_rbYes">Yes</string>
+    <string name="text_rbNo">No</string>
+    <string name="text_tvAutoShot">Auto-shot Time</string>
+    <string name="text_btPrefSave">Save Preferences</string>
+    <string name="text_btPrefLoad">Load Preferences</string>
+    <string name="text_btDefault">Default Values</string>
+    <string name="msg_RequireNumber">Please input numbers</string>
+    <string name="msg_preferencesSaved">Preferences saved</string>
+    <string name="msg_preferencesLoaded">Preferences loaded</string>
+    <string name="msg_DefaultsRestored">Defaults restored</string>
+</resources>
